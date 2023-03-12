@@ -1,5 +1,9 @@
 {
   "name": "deppy",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ariit0"
+  },
   "packageManager": "yarn@3.4.1",
   "scripts": {
     "start": "tsc && node ./dist/index.js",
