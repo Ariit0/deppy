@@ -1,0 +1,6 @@
+.vscode/
+.eslintrc.yml
+.npmrc
+.nvmrc
+.prettierrc
+tsconfig.json

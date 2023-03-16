@@ -5,6 +5,18 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@ariit0/deppy@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@ariit0/deppy@workspace:."
+  dependencies:
+    "@types/node": ^18.15.0
+    "@types/yargs": ^17.0.22
+    ts-node: ^10.9.1
+    typescript: ^4.9.5
+    yargs: ^17.7.1
+  languageName: unknown
+  linkType: soft
+
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -161,18 +173,6 @@ __metadata:
   checksum: a9a1503d4390d8b59ad86f4607de7870b39cad43d929813599a23714831e81c520bddf61bcdd1f8e30f05fd3a2b71ae8538e946eb2786dc65c2bbc520f692eff
   languageName: node
   linkType: hard
-
-"deppy@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "deppy@workspace:."
-  dependencies:
-    "@types/node": ^18.15.0
-    "@types/yargs": ^17.0.22
-    ts-node: ^10.9.1
-    typescript: ^4.9.5
-    yargs: ^17.7.1
-  languageName: unknown
-  linkType: soft
 
 "diff@npm:^4.0.1":
   version: 4.0.2
