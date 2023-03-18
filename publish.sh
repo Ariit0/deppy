@@ -9,4 +9,4 @@ cd "$(dirname "$(readlink -f "$0")")"
 rm -Rdf ./dist/*
 yarn build
 chmod +x ./dist/index.js
-yarn publish --public
+npm publish --access public
