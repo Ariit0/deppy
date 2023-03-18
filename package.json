@@ -1,6 +1,6 @@
 {
   "name": "@ariito/deppy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/index.ts",
   "author": {
     "name": "Ariit0"
@@ -8,9 +8,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "bin": {
-    "deppy": "./dist/index.js"
-  },
+  "bin": "./dist/index.js",
   "packageManager": "yarn@3.4.1",
   "scripts": {
     "start": "tsc && node ./dist/index.js",
