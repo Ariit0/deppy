@@ -4,6 +4,17 @@ Small CLI tool that parses dependency file into csv format.
 
 Currently only supports node projects.
 
+## Usage
+
+`npx @ariito/deppy --dir <path to package.json>`
+
+Optional arguments:
+These are the columns that can be customised via arguments
+
+`--repo <string>`
+`--updatedBy <string>`
+`--teamLead <string>`
+
 ## TODO
 
 - Allow for setup of csv columns - for now this is hard coded
